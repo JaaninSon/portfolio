@@ -1,0 +1,45 @@
+@font-face{
+   font-family:fogtwono5;
+   font-style:normal;
+   font-weight:400;
+   src:local('FogtwoNo5'),url(https://fonts.cdnfonts.com/s/18102/FogtwoNo5.woff) format('woff');
+}
+
+@font-face{
+   font-family: Quicksilver;
+   font-style:normal;
+   font-weight:400;
+   src:local('Quicksilver.woff'),url(./font/Quicksilver.woff) format('woff');
+}
+@font-face{
+   font-family: Bluetea;
+   font-style:normal;
+   font-weight:400;
+   src:local('Bluetea.woff'),url(./font/Bluetea.woff) format('woff');
+}
+@font-face{
+   font-family: Oklahoma;
+   font-style:normal;
+   font-weight:400;
+   src:local('Bluetea.woff'),url(./font/Oklahoma.woff) format('woff');
+}
+
+@font-face {
+   font-family: 'IAMAPLAYER';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/IAMAPLAYER.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face{
+   font-family: Pak_Yong_jun;
+   font-style:normal;
+   font-weight:normal;
+   src:local('Bluetea.woff'),url(./font/Pak_Yong_jun.woff) format('woff');
+}
+
+@font-face {
+   font-family: 'omyu_pretty';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+   font-weight: normal;
+   font-style: normal;
+}
