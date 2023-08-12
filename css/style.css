@@ -496,9 +496,10 @@ img {display: block;}
 
    .about-container p {
       padding: 30px 5px 20px 5px;
-      font-size: 3vw;
+      font-size: 3.2vw;
       font-family: Pak_Yong_jun;
       white-space: wrap;
+      line-height: 1.5rem;
    }
 }
 
@@ -606,6 +607,10 @@ img {display: block;}
    padding: 20px 0;
 }
 
+.pj-nav p br {
+   display: none;
+}
+
 .pj-nav ul {
    width: 100%;
    text-align: center;
@@ -695,7 +700,12 @@ img {display: block;}
    }
 
    .pj-nav p {
-      font-size: 10px;
+      font-size: 14px;
+      line-height: 1.5rem;
+   }
+
+   .pj-nav p br {
+      display: block;
    }
 }
 
