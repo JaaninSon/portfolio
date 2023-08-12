@@ -366,7 +366,7 @@ img {display: block;}
    }
 
    .mo-intro-mask-title02 span {
-      line-height: 3.5vh;
+      line-height: 4vh;
    }
 
    .mo-intro-mask-title01 img {
@@ -801,6 +801,12 @@ img {display: block;}
       overflow: auto;
    }
 
+   
+   .img-box:hover img {
+      transition: none;
+      margin-top: 0;
+   }
+
    .img-caption {
       opacity: 1;
       height: 100%;
@@ -998,7 +1004,8 @@ img {display: block;}
    }
 
    .i-hidden {
-      font-size: 16px;
+      padding-top: 3px;
+      font-size: 14px;
    }
 }
 
