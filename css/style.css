@@ -455,10 +455,10 @@ img {display: block;}
 
    .about-container p {
       padding: 30px 5px;
-      font-size: 1.4vw;
+      font-size: 1.6vw;
       font-family: Pak_Yong_jun;
-      line-height: 3.2vw;
-      letter-spacing: 3px;
+      line-height: 3vw;
+      letter-spacing: 2px;
    }
 }
 @media(max-width:780px){
@@ -496,10 +496,22 @@ img {display: block;}
 
    .about-container p {
       padding: 30px 5px 20px 5px;
-      font-size: 3.2vw;
+      font-size: 4vw;
       font-family: Pak_Yong_jun;
       white-space: wrap;
-      line-height: 1.5rem;
+      line-height: 2.5rem;
+      letter-spacing: 1px;
+   }
+}
+
+@media (max-width: 670px){
+   .about-container p {
+      padding: 30px 5px 20px 5px;
+      font-size: 4vw;
+      font-family: Pak_Yong_jun;
+      white-space: wrap;
+      line-height: 2rem;
+      letter-spacing: 1px;
    }
 }
 
@@ -1105,7 +1117,7 @@ img {display: block;}
 }
 @media (max-width: 407px) {
    .scroll-info {
-      right: -13vw;
+      right: -11vw;
       color: rgba(255, 255, 255, 0.63);
       font-size: 5px;
    }
@@ -1143,5 +1155,13 @@ img {display: block;}
 .go-top i {
    font-size: 25px;
    color: #cfca16;
+}
+
+@media (max-width: 480px){
+   .go-top-btn {
+      width: 50px;
+      height: 50px;
+      border-radius: 25px;
+   }
 }
 
